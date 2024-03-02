@@ -12,7 +12,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("${api.v1.baseUrl}/auth")
+@RequestMapping("${api.v1.baseUrl}/users")
 public class UserController {
     private UserService userService;
     public UserController(UserService userService) {
