@@ -18,7 +18,7 @@ public class UserController {
     public UserController(UserService userService) {
         this.userService = userService;
     }
-
+    // The every method of controller should be mapped to a specific HTTP method and URL path.
     @PostMapping({"/login", "/signin"})
     public Token login(@RequestBody LoginRequestDto requestDto) {
         // check if email and password in db
