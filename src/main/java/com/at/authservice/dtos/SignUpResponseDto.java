@@ -1,11 +1,7 @@
-package com.scaler.userservicemwfeve.dtos;
+package com.at.authservice.dtos;
 
-import com.scaler.userservicemwfeve.models.Role;
-import jakarta.persistence.ManyToMany;
 import lombok.Getter;
 import lombok.Setter;
-
-import java.util.List;
 
 @Setter
 @Getter

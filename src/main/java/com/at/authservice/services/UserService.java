@@ -1,11 +1,10 @@
-package com.scaler.userservicemwfeve.services;
+package com.at.authservice.services;
 
-import com.scaler.userservicemwfeve.models.Token;
-import com.scaler.userservicemwfeve.models.User;
-import com.scaler.userservicemwfeve.repositories.TokenRepo;
-import com.scaler.userservicemwfeve.repositories.UserRepo;
+import com.at.authservice.models.Token;
+import com.at.authservice.models.User;
+import com.at.authservice.repositories.TokenRepo;
+import com.at.authservice.repositories.UserRepo;
 import org.apache.commons.lang3.RandomStringUtils;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 

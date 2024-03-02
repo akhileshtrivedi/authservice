@@ -1,6 +1,6 @@
-package com.scaler.userservicemwfeve.repositories;
+package com.at.authservice.repositories;
 
-import com.scaler.userservicemwfeve.models.Token;
+import com.at.authservice.models.Token;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

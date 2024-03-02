@@ -1,4 +1,4 @@
-package com.scaler.userservicemwfeve.configurations;
+package com.at.authservice.configurations;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

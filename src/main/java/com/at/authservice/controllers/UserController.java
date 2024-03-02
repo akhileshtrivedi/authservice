@@ -1,12 +1,12 @@
-package com.scaler.userservicemwfeve.controllers;
+package com.at.authservice.controllers;
 
-import com.scaler.userservicemwfeve.dtos.LoginRequestDto;
-import com.scaler.userservicemwfeve.dtos.LogoutRequestDto;
-import com.scaler.userservicemwfeve.dtos.SignUpRequestDto;
-import com.scaler.userservicemwfeve.dtos.SignUpResponseDto;
-import com.scaler.userservicemwfeve.models.Token;
-import com.scaler.userservicemwfeve.models.User;
-import com.scaler.userservicemwfeve.services.UserService;
+import com.at.authservice.dtos.LoginRequestDto;
+import com.at.authservice.dtos.LogoutRequestDto;
+import com.at.authservice.dtos.SignUpRequestDto;
+import com.at.authservice.dtos.SignUpResponseDto;
+import com.at.authservice.models.Token;
+import com.at.authservice.models.User;
+import com.at.authservice.services.UserService;
 import lombok.NonNull;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

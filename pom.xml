@@ -8,11 +8,11 @@
         <version>3.2.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.scaler</groupId>
-    <artifactId>userservicemwfeve</artifactId>
+    <groupId>com.at</groupId>
+    <artifactId>authservice</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>userservicemwfeve</name>
-    <description>userservicemwfeve</description>
+    <name>authservice</name>
+    <description>authservice</description>
     <properties>
         <jjwt.version>0.11.5</jjwt.version>
         <springdoc.version>2.2.0</springdoc.version>

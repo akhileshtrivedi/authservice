@@ -1,4 +1,4 @@
-package com.scaler.userservicemwfeve.controllers;
+package com.at.authservice.controllers;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;

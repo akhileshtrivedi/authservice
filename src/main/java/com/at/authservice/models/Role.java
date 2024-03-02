@@ -1,4 +1,4 @@
-package com.scaler.userservicemwfeve.models;
+package com.at.authservice.models;
 
 import jakarta.persistence.Entity;
 import lombok.Getter;

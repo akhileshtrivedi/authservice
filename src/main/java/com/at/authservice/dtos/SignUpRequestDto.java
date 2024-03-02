@@ -1,11 +1,12 @@
-package com.scaler.userservicemwfeve.dtos;
+package com.at.authservice.dtos;
 
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-public class LoginRequestDto {
+public class SignUpRequestDto {
     private String email;
     private String password;
+    private String name;
 }
